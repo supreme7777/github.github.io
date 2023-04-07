@@ -1,0 +1,66 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 85%;
+    margin: auto;
+    gap: 36px;
+}
+
+.biz {
+font-family: Montserrat;
+font-style: Bold;
+font-weight: 700;
+font-size: 30px;
+display: flex;
+justify-content: center;
+}
+
+.about .lorem {
+
+font-family: Montserrat;
+font-style: Medium;
+font-size: 20px;
+line-height: 24px;
+line-height: 100%;
+display: flex;
+justify-content: center;
+}
+@media (max-width:425px){
+    .about .lorem{
+        font-style:normal;
+        font-size: 10px;
+    }
+    .biz {
+        font-weight: 300;
+        font-size: 10px;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px
+        }
+     
+}
+@media (max-width :320px){
+    .about .lorem{
+        font-style:normal;
+        font-size: 3px;
+        margin: auto;
+    }
+
+}
+@media (max-width :768px){
+    .about .lorem{
+        font-size: 10px;
+    }
+    .biz {
+        font-weight: 550;
+        font-size: 20px;
+        }
+        .about{
+            gap: 20px
+        }
+     
+}
